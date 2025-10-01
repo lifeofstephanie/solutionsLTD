@@ -37,10 +37,5 @@ allprojects {
     maven { url 'https://www.jitpack.io' }
   }
 }
-kotlin {
-    jvmToolchain(17)
-}
-
-
 apply plugin: "expo-root-project"
 apply plugin: "com.facebook.react.rootproject"
